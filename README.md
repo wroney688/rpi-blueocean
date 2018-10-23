@@ -8,6 +8,6 @@ thing required is to get the jenkinsci/docker project off github, rebuild
 with the existing dockerfiles, and then push them to a repo.  
 
 As of Oct 16, 2018, this pushes:
-- wroney/rpi-blueocean:latest
-- wroney/rpi-blueocean:latest-alpine
-- wroney/rpi-blueocean:latest-slim
+- wroney/rpi-jenkins:latest
+- wroney/rpi-jenkins:latest-alpine
+- wroney/rpi-jenkins:latest-slim
