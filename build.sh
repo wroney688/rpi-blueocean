@@ -34,7 +34,7 @@ then
         docker push wroney/rpi-jenkins-arm:latest
         docker push wroney/rpi-jenkins-arm:latest-slim
         docker push wroney/rpi-jenkins-arm:latest-alpine
-elif [ "$ARCH" = "aarch64" -0 "$ARCH" = "arm64" ]
+elif [ "$ARCH" = "aarch64" -o "$ARCH" = "arm64" ]
 then
         echo -e "\033[1;34mTagging for ARCH:armv8\033[0m"
         docker tag wroney/rpi-jenkins:latest wroney/rpi-jenkins-arm64:latest
