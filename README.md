@@ -17,8 +17,8 @@ On a 32 bit Pi environment, arch is arm7l, under 64 bit for a Pi3 the arch is aa
 - wroney/rpi-jenkins-slim:latest
 - wroney/rpi-jenkins-alpine:latest
 
-`./manifest-tool push from-spec <yaml>  `
+./manifest-tool push from-spec <yaml>  
 Alternately:
-- `./manifest-tool push from-args --platforms linux/arm7l,linux/aarch64 --template wroney/rpi-jenkins-ARCH:latest --target wroney/rpi-jenkins:latest'
-- './manifest-tool push from-args --platforms linux/arm7l,linux/aarch64 --template wroney/rpi-jenkins-slim-ARCH:latest --target wroney/rpi-jenkins-slim:latest'
-- './manifest-tool push from-args --platforms linux/arm7l,linux/aarch64 --template wroney/rpi-jenkins-alpine-ARCH:latest --target wroney/rpi-jenkins-alpine:latest`
+- ./manifest-tool push from-args --platforms linux/arm7l,linux/aarch64 --template wroney/rpi-jenkins-ARCH:latest --target wroney/rpi-jenkins:latest
+- ./manifest-tool push from-args --platforms linux/arm7l,linux/aarch64 --template wroney/rpi-jenkins-slim-ARCH:latest --target wroney/rpi-jenkins-slim:latest
+- ./manifest-tool push from-args --platforms linux/arm7l,linux/aarch64 --template wroney/rpi-jenkins-alpine-ARCH:latest --target wroney/rpi-jenkins-alpine:latest
