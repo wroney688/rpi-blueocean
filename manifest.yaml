@@ -10,29 +10,3 @@ manifests:
     platform:
       architecture: aarch64
       os: linux
-
-image: wroney/rpi-jenkins:latest-slim
-manifests:
-  -
-    image: wroney/rpi-jenkins-armv7l:latest-slim
-    platform:
-      architecture: armv7l
-      os: linux
-  -
-    image: wroney/rpi-jenkins-aarch64:latest-slim
-    platform:
-      architecture: aarch64
-      os: linux
-
-image: wroney/rpi-jenkins:latest-alpine
-manifests:
-  -
-    image: wroney/rpi-jenkins-armv7l:latest-alpine
-    platform:
-      architecture: armv7l
-      os: linux
-  -
-    image: wroney/rpi-jenkins-aarch64:latest-alpine
-    platform:
-      architecture: aarch64
-      os: linux      
