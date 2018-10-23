@@ -1,0 +1,12 @@
+image: wroney/rpi-jenkins-alpine:latest
+manifests:
+  -
+    image: wroney/rpi-jenkins-alpine-armv7l:latest
+    platform:
+      architecture: armv7l
+      os: linux
+  -
+    image: wroney/rpi-jenkins-alpine-aarch64:latest
+    platform:
+      architecture: aarch64
+      os: linux
