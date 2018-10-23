@@ -43,7 +43,7 @@ then
         docker tag wroney/rpi-jenkins:latest wroney/rpi-jenkins-aarch64:latest
         docker tag wroney/rpi-jenkins:latest-slim wroney/rpi-jenkins-aarch64:latest-slim
         docker tag wroney/rpi-jenkins:latest-alpine wroney/rpi-jenkins-aarch64:latest-alpine
-        echo -e "\033[1;34mPushing for ARCH:armv7\033[0m"
+        echo -e "\033[1;34mPushing for ARCH:armv8\033[0m"
         docker push wroney/rpi-jenkins-arm64:latest
         docker push wroney/rpi-jenkins-arm64:latest-slim
         docker push wroney/rpi-jenkins-arm64:latest-alpine
