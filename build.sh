@@ -24,7 +24,7 @@ docker build -t wroney/rpi-jenkins:latest-slim -f Dockerfile-slim .
 echo -e "\033[1;36mBuilding latest-alpine\033[0m"
 docker build -t wroney/rpi-jenkins:latest-alpine -f Dockerfile-alpine .
 
-if [ "$ARCH" = "armhf" -o "$ARCH" = "armv71" ]
+if [ "$ARCH" = "armhf" -o "$ARCH" = "armv7l" ]
 then
         echo -e "\033[1;34mTagging for ARCH:armv7\033[0m"
         docker tag wroney/rpi-jenkins:latest wroney/rpi-jenkins-arm:latest
