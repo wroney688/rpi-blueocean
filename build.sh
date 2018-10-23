@@ -21,9 +21,9 @@ echo -e "\033[1;36mBuilding latest\033[0m"
 docker build -t wroney/rpi-jenkins-$ARCH:latest -f Dockerfile .
 docker push wroney/rpi-jenkins-$ARCH:latest
 echo -e "\033[1;36mBuilding latest-slim\033[0m"
-docker build -t wroney/rpi-jenkins-$ARCH:latest-slim -f Dockerfile-slim .
-docker push wroney/rpi-jenkins-$ARCH:latest-slim
+docker build -t wroney/rpi-jenkins-slim-$ARCH:latest -f Dockerfile-slim .
+docker push wroney/rpi-jenkins-slim-$ARCH:latest
 echo -e "\033[1;36mBuilding latest-alpine\033[0m"
-docker build -t wroney/rpi-jenkins-$ARCH:latest-alpine -f Dockerfile-alpine .
-docker push wroney/rpi-jenkins-$ARCH:latest-alpine
+docker build -t wroney/rpi-jenkins-alpine-$ARCH:latest -f Dockerfile-alpine .
+docker push wroney/rpi-jenkins-alpine-$ARCH:latest
 
