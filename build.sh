@@ -14,7 +14,7 @@ then
         git pull origin
 else
         echo -e "\033[1;36mRetrieving jenkinsci/docker\033[0m"
-        git clone https://github.com/jenksci/docker
+        git clone https://github.com/jenkinssci/docker
         cd docker
 fi
 echo -e "\033[1;36mBuilding latest\033[0m"
